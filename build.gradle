@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+javafx {
+    version = "18.0.1"
+    modules = [ 'javafx.controls' ]
+}
+
+group 'com.kodilla'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    mainClassName = 'com.kodilla.rpgame'
+}
+
+test {
+    useJUnitPlatform()
+}
