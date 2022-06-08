@@ -1,4 +1,4 @@
-package com.kodilla;
+package com.kodilla.bin;
 
 public class PC {
     String name;

@@ -1,6 +1,6 @@
-package com.kodilla;
+package com.kodilla.bin;
 
-public class leveling {
+public class Leveling {
 // 1-25
 // lvl 1>2 0/100 xp  >
 // lvl 2>3 static200%lvl1 = 200xp

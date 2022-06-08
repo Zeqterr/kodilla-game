@@ -1,4 +1,4 @@
-package com.kodilla;
+package com.kodilla.bin;
 
 import java.util.ArrayList;
 
